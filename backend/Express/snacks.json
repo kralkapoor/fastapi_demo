@@ -1,0 +1,7 @@
+[
+    {"id" : 1, "snack_name" : "Crisps", "rating" : 7},
+    {"id" : 2, "snack_name" : "Yoghurt", "rating" : 4},
+    {"id" : 3, "snack_name" : "Oreos", "rating" : 2},
+    {"id" : 4, "snack_name" : "Popcorn", "rating" : 9},
+    {"id" : 5, "snack_name" : "Pumpkin seeds", "rating" : 10}
+]

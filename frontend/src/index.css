@@ -1,0 +1,114 @@
+* {
+    background-color: whitesmoke;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+input {
+    color: black;
+    background-color: lightyellow;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5vw;
+}
+
+form label {
+    font-weight: bolder;
+}
+form input {
+    margin-left: 5px;
+    width: 200px;
+}
+
+form button {
+    margin: 10px;
+    background-color: lavender;
+    width: 100px;
+}
+
+form button:hover {
+    background-color: orange;
+}
+
+h1 {
+    color: black;
+    padding-bottom: 10vh;
+    padding-top: 5vh;
+}
+
+.home {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "top top top"
+                         "drink mid snack";
+}
+
+.welcome {
+    grid-area: top;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.guide {
+    grid-area: mid;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.snacks {
+    grid-area: snack;
+    /* border: 5px solid black; */
+    margin: auto;
+    width: 300px;
+    height: auto;
+    text-align: center;
+}
+
+.drinks {
+    grid-area: drink;
+    /* border: 5px solid black; */
+    margin: auto;
+    width: 300px;
+    height: auto;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: 250px;
+    padding: 0px;
+    margin: 0px;
+    border: 3px solid black;
+}
+
+nav {
+    font-weight: bolder;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.snacks p {
+    border-bottom: 1px solid black;
+    margin: auto;
+    width: 100%;
+    background-color: green;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+
+.drinks p {
+    border-bottom: 1px solid black;
+    margin: auto;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}

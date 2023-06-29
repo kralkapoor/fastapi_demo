@@ -1,0 +1,28 @@
+.flexbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.component {
+    /* border: 1px black solid; */
+    padding-left: 5vw;
+}
+
+.postForm{
+    padding-left: 5vw;
+}
+
+.banner {
+    /* border: 1px black solid; */
+    /* writing-mode: vertical-rl; */
+    /* text-orientation: sideways; */
+    margin: auto;
+    font-size: 26px;
+    justify-content: center;
+    text-align: center;
+}
+
+.fastApi {
+    color: blue;
+    padding-left: 5vw;
+}

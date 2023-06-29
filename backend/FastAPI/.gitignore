@@ -1,0 +1,7 @@
+# Ignore bytecode-compiled files
+__pycache__/
+
+# Virtual environment with interpreter and modules
+# Should be set up by each user and installed requirements.txt
+# using pip install -r requirements.txt
+venv/
